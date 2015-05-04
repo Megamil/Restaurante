@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:gravity="center_vertical"
+    android:background="@android:color/white"
+    android:alpha="0.8">
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_marginLeft="5dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        />
+
+    <TextView
+        android:id="@+id/nome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textSize="18sp"
+        android:layout_marginLeft="55dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+
+        />
+
+    <TextView
+        android:id="@+id/acompanhamento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_marginLeft="55dp"
+        android:textColor="@android:color/black"
+        android:layout_below="@+id/nome"
+
+        />
+
+    <TextView
+        android:id="@+id/preco"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_alignParentEnd="true"
+        android:textColor="@android:color/black"
+        />
+
+</RelativeLayout>

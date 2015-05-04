@@ -1,0 +1,34 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".PratosActivity"
+    android:id="@+id/background"
+    >
+
+    <FrameLayout
+        android:id="@+id/frag_topo"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.7"
+        tools:layout="@layout/fragment_banner_pratos"/>
+
+    <FrameLayout
+        android:id="@+id/frag_centro"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6.3"
+        />
+
+    <fragment
+        android:id="@+id/frag_inferior"
+        android:name="net.megamil.restaurante.FooterTabFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        tools:layout="@layout/fragment_footertab"/>
+
+</LinearLayout>

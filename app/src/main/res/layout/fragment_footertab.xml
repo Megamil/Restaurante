@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:alpha="0.7"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="horizontal"
+    android:gravity="top">
+
+    <Button
+        android:text="Pratos"
+        android:textSize="10sp"
+        android:onClick="pratos"
+        android:drawableTop="@drawable/refeicoes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        style="?android:attr/buttonBarButtonStyle"/>
+
+    <Button
+        android:text="Lanches"
+        android:textSize="10sp"
+        android:onClick="lanches"
+        android:drawableTop="@drawable/lanches"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        style="?android:attr/buttonBarButtonStyle"/>
+
+    <Button
+        android:text="Bebidas"
+        android:textSize="10sp"
+        android:drawableTop="@drawable/bebidas"
+        android:onClick="bebidas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        style="?android:attr/buttonBarButtonStyle"/>
+
+    <Button
+        android:text="Pedidos"
+        android:textSize="10sp"
+        android:drawableTop="@drawable/pedido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        style="?android:attr/buttonBarButtonStyle"/>
+
+    <Button
+        android:text="Cupons"
+        android:textSize="10sp"
+        android:drawableTop="@drawable/cupom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        style="?android:attr/buttonBarButtonStyle"/>
+
+</LinearLayout>
